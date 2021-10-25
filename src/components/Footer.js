@@ -25,6 +25,7 @@ const Footer = (props) => {
                     href="https://www.linkedin.com/in/juditaldeguer/"
                     alt="Linkedin profile"
                     target="_blank"
+                    rel="noreferrer"
                     class="rrss_link"
                   >
                     <i
@@ -38,6 +39,7 @@ const Footer = (props) => {
                     href="https://github.com/JuditAldeguer"
                     alt="Github profile"
                     target="_blank"
+                    rel="noreferrer"
                     class="rrss_link"
                   >
                     <i class="fab fa-github fa-lg icon" aria-hidden="true"></i>
@@ -48,6 +50,7 @@ const Footer = (props) => {
                     href="mailto:jud.vicens@hotmail.es"
                     alt="Email contact"
                     target="_blank"
+                    rel="noreferrer"
                     class="rrss_link"
                   >
                     <i

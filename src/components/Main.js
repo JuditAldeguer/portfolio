@@ -27,72 +27,84 @@ import ProjectItem from './secondary-components/ProjectItem';
 const Main = (props) => {
   return (
     <main>
-      <section id="aboutMe" class="aboutMe">
+      <section id="aboutMe" className="aboutMe">
         <article>
-          <h2 class="about_mainTitle">About Me</h2>
-          <p class="about_text">
+          <h2 className="about_mainTitle">About Me</h2>
+          <p className="about_text">
             I am a Junior Frontend Developer who discovered programming thanks
             to my surroundings, and fell in love with the community, the
             creativity and the possibility of making an impact on society. My
             previous work experiences have made me a very adaptable person who
             enjoys continuous learning.
           </p>
-          <p class="about_text">
+          <p className="about_text">
             My hobbies include taking care of my people, nature, sports and
             traveling.
           </p>
-          <p class="about_text">
+          <p className="about_text">
             I consider myself a hard-working and fast-learner person, who enjoys
             challenges..
           </p>
-          <button>Download english-CV</button>
-          <button>Download spanish-CV</button>
+          <a
+            className="link_download"
+            href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens_ENG.pdf"
+            download
+          >
+            Download English CV
+          </a>
+          <a
+            className="link_download"
+            href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens.pdf"
+            download
+          >
+            Download Spanish CV
+          </a>
         </article>
-        <article class="tech_container">
-          <h3 class="tech_title">Technical Skills</h3>
-          <ul class="tech_list">
-            <li class="tech_item">
-              <img class="tech_icon" src={html5} alt="HTML5 Icon" />
+        <article className="tech_container">
+          <h3 className="tech_title">Technical Skills</h3>
+          <ul className="tech_list">
+            <li className="tech_item">
+              <img className="tech_icon" src={html5} alt="HTML5 Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={css3} alt="CSS3 Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={css3} alt="CSS3 Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={sass} alt="Sass Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={sass} alt="Sass Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={js} alt="JavaScript Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={js} alt="JavaScript Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={react} alt="React Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={react} alt="React Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={gulp} alt="Gulp Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={gulp} alt="Gulp Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={npm} alt="Npm Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={npm} alt="Npm Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={zeplin} alt="Zeplin Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={zeplin} alt="Zeplin Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={git} alt="Git Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={git} alt="Git Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={github} alt="Github Icon/" />
+            <li className="tech_item">
+              <img className="tech_icon" src={github} alt="Github Icon/" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={vscode} alt="VS Code Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={vscode} alt="VS Code Icon" />
             </li>
-            <li class="tech_item">
-              <img class="tech_icon" src={scrum} alt="Scrum Icon" />
+            <li className="tech_item">
+              <img className="tech_icon" src={scrum} alt="Scrum Icon" />
             </li>
           </ul>
         </article>
       </section>
-      <section id="projects" class="projects">
-        <h2 class="projects_mainTitle">Projects</h2>
-        <ul class="projects_listContainer">
+      <section id="projects" className="projects">
+        <h2 className="projects_mainTitle">Projects</h2>
+        <ul className="projects_listContainer">
           <ProjectItem
             id="1"
             titles="JavaS the hutt"

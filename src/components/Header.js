@@ -10,10 +10,10 @@ const Header = (props) => {
         <div className="cover">
           <Links />
         </div>
-        <div class="coverText">
-          <h1 class="cover_mainTitle">Judit Aldeguer Vicens</h1>
-          <h2 class="cover_title">&lt;Junior Frontend Developer&gt;</h2>
-          <p class="cover_text">Welcome to my portfolio!</p>
+        <div className="coverText">
+          <h1 className="cover_mainTitle">Judit Aldeguer Vicens</h1>
+          <h2 className="cover_title">&lt;Junior Frontend Developer&gt;</h2>
+          <p className="cover_text">Welcome to my portfolio!</p>
         </div>
       </section>
     </header>

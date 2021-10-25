@@ -10,8 +10,8 @@ const Links = (props) => {
       <ul className="navList">
         <li>
           <div>
-            <button class="button button_es">ES</button>
-            <button class="button">EN</button>
+            <button className="button button_es">ES</button>
+            <button className="button">EN</button>
           </div>
         </li>
         <li className="navItem">

@@ -43,6 +43,16 @@
   }
 }
 
+.link_download {
+  border-radius: 10px;
+  border: solid 2px $colorMain-h3;
+  background-color: $colorMain-h2;
+  color: $color-rrss;
+  font-weight: bolder;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  text-decoration: none;
+}
 //Tech---
 .tech_title {
   text-align: center;

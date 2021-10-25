@@ -1,4 +1,4 @@
-//Styless
+//Styles
 import '../styles/layout/header.scss';
 //Components
 import Links from './secondary-components/Links';

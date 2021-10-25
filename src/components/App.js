@@ -10,8 +10,8 @@ import date from '../services/date'; //fecha usamos date: date.getCurrentDate()
 import '../styles/App.scss';
 //Components
 import Header from './Header';
+import Main from './Main';
 import Footer from './Footer';
-import ProductDetail from './/secondary-components/ProductDetail';
 import NotFoundPage from './secondary-components/NotFoundPage';
 
 function App() {
@@ -20,15 +20,13 @@ function App() {
 
   return (
     <div className="page">
-      <Header productId="321" />{' '}
-      {/* pendiente introducir numero id con find() tras callToApi */}
       <Switch>
         <Route path="/" exact>
-          <h1>Bienvenida a la pagina de inicio</h1>
-          <p>Catálogo</p>
+          <Header />
+          <Main />
         </Route>
-        <Route path="/product-detail/">
-          <ProductDetail productId={productId} />
+        <Route path="/CV/">
+          <p>Descargar curriculum</p>
         </Route>
         <Route>
           <NotFoundPage />

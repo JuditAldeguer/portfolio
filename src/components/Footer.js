@@ -2,7 +2,7 @@ import '../styles/layout/footer.scss';
 
 const Footer = (props) => {
   return (
-    <footer className="footer">
+    <footer id="contact" class="footer">
       Copyright&copy; Made with ❤️ by{' '}
       <a
         className="footer--link"

@@ -1,12 +1,14 @@
 @import '../core/variables.scss';
+@import '../core/mixins.scss';
 
 header {
-  background-image: url('../../images/header-background.png');
-  display: flex;
-  justify-content: space-evenly;
   margin-bottom: 3rem;
 }
-.title {
-  color: white;
-  text-align: center;
+
+.cover {
+  background-image: url('../../images/Judit.jpg');
+  background-position: 50%;
+  background-size: cover;
+  height: 75vh;
+  border-radius: 0 100% 100% 0/50%;
 }

@@ -4,18 +4,13 @@ import '../styles/layout/header.scss';
 import Links from './secondary-components/Links';
 
 const Header = (props) => {
-  const handleBackBtn = (ev) => {
-    ev.preventDefault();
-    window.history.back();
-  };
-
   return (
-    <header>
-      <h1 className="title">Starter Kit</h1>
-      <Links productId={props.productId} />
-      <button title="atrás" onClick={handleBackBtn}>
-        Volver atrás
-      </button>
+    <header className="header">
+      <section id="header" className="header">
+        <div className="cover">
+          <Links />
+        </div>
+      </section>
     </header>
   );
 };

@@ -1,6 +1,20 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
 
+.aboutMe {
+  background-image: url('../../images/old5.fb7d8c8e.jpg');
+  width: 100%;
+  min-width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .about_mainTitle {
   color: $colorMain-h2;
   text-align: center;
@@ -19,11 +33,25 @@
 .about_text {
   padding: 0 2rem;
   font-size: 0.8rem;
-  line-height: 1.7rem;
+  line-height: 1.2rem;
   text-align: center;
   @include tablet {
     line-height: 3rem;
     padding: 0 3rem 2.7rem 3rem;
     font-size: 1rem;
+  }
+}
+
+.tech_title {
+  text-align: center;
+  padding-bottom: 15px;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  color: $colorMain-h2;
+  font-size: 30px;
+  font-weight: 800;
+  @include tablet {
+    font-size: 35px;
+    padding-bottom: 25px;
   }
 }

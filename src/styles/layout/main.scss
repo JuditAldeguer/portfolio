@@ -3,9 +3,9 @@
 
 // About me---
 .aboutMe {
-  background-image: url('../../images/background-old5.jpg');
+  background-image: url('../../images/background-old2.jpg');
   width: 100%;
-  min-width: 400px;
+  min-width: 360px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0;
@@ -50,10 +50,14 @@
   color: $color-rrss;
   font-weight: bolder;
   padding: 0.2rem;
-  margin: 0.2rem;
+  margin: 1rem 0.2rem;
   text-decoration: none;
 }
 //Tech---
+
+.tech {
+  background-image: url('../../images/background-old4.jpg');
+}
 .tech_title {
   text-align: center;
   padding-bottom: 15px;

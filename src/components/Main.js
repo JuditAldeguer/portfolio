@@ -60,6 +60,8 @@ const Main = (props) => {
             Download Spanish CV
           </a>
         </article>
+      </section>
+      <section className="tech">
         <article className="tech_container">
           <h3 className="tech_title">Technical Skills</h3>
           <ul className="tech_list">

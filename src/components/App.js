@@ -24,6 +24,7 @@ function App() {
         <Route path="/" exact>
           <Header />
           <Main />
+          <Footer />
         </Route>
         <Route path="/CV/">
           <p>Descargar curriculum</p>
@@ -32,7 +33,6 @@ function App() {
           <NotFoundPage />
         </Route>
       </Switch>
-      <Footer />
     </div>
   );
 }

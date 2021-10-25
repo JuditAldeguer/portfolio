@@ -5,7 +5,8 @@
   position: fixed;
   padding: 0.5rem 0;
   width: 100%;
-  background-image: url('../../images/background-header.png');
+  background-color: $bg-color-nav;
+  // background-image: url('../../images/background-header.png');
 }
 .navList {
   display: flex;

@@ -1,6 +1,7 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
 
+// About me---
 .aboutMe {
   background-image: url('../../images/background-old5.jpg');
   width: 100%;
@@ -42,6 +43,7 @@
   }
 }
 
+//Tech---
 .tech_title {
   text-align: center;
   padding-bottom: 15px;
@@ -94,4 +96,93 @@
     width: 30px;
     height: 30px;
   }
+}
+
+// Projects---
+.projects {
+  width: 100%;
+  min-width: 360px;
+  height: auto;
+  min-height: 100vh;
+}
+
+.projects_mainTitle {
+  color: $colorMain-h2;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  font-size: 30px;
+  font-weight: 900;
+  @include tablet {
+    font-size: 35px;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+  }
+}
+
+.projects_listContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+  padding-bottom: 35px;
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.projects_listItem {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.item_title {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  grid-column: span 2;
+  color: $colorProjects-titleItem;
+  font-size: 20px;
+  @include tablet {
+    font-size: 28px;
+  }
+}
+
+.img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_img {
+  width: 300px;
+  border-radius: 12%;
+  box-shadow: 0.3em 0.3em 0.5em $colorMain-h2;
+}
+
+.item_textContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item_description {
+  font-size: 14px;
+  text-align: center;
+  width: 80%;
+  background-color: $colorProjects-desc;
+  box-shadow: 0.1em 0.1em 0.2em #525151;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.projectIcon {
+  color: $colorProjects-icon;
+  width: 20px;
+  font-size: 35px;
 }

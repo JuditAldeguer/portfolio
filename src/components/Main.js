@@ -13,8 +13,16 @@ import git from '../images/git.svg';
 import github from '../images/github.svg';
 import vscode from '../images/vscode.svg';
 import scrum from '../images/scrum.png';
-// //Components
-// import Links from './secondary-components/Links';
+import p1 from '../images/p1.png';
+import p2 from '../images/p2.png';
+import p3 from '../images/p3.png';
+import p4 from '../images/p4.png';
+import p5 from '../images/p5.png';
+import p6 from '../images/p6.png';
+import p7 from '../images/p7.png';
+
+//Components
+import ProjectItem from './secondary-components/ProjectItem';
 
 const Main = (props) => {
   return (
@@ -37,6 +45,8 @@ const Main = (props) => {
             I consider myself a hard-working and fast-learner person, who enjoys
             challenges..
           </p>
+          <button>Download english-CV</button>
+          <button>Download spanish-CV</button>
         </article>
         <article class="tech_container">
           <h3 class="tech_title">Technical Skills</h3>
@@ -79,6 +89,74 @@ const Main = (props) => {
             </li>
           </ul>
         </article>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="projects_mainTitle">Projects</h2>
+        <ul class="projects_listContainer">
+          <ProjectItem
+            id="1"
+            titles="JavaS the hutt"
+            link="https://react-machines.herokuapp.com/"
+            image={p1}
+            desc="Code refactoring from JavaScript to React. Design and database
+            creation"
+            linkGH="https://github.com/Adalab/project-promo-n-module-3-team-3"
+          />
+          <ProjectItem
+            id="2"
+            titles="Rick &amp; Morty's WIKI"
+            link="http://beta.adalab.es/modulo-3-evaluacion-final-JuditAldeguer/"
+            image={p2}
+            desc="Web application with React through an API requests, SPAs and
+            filters by character"
+            linkGH="https://github.com/Adalab/modulo-3-evaluacion-final-JuditAldeguer"
+          />
+          <ProjectItem
+            id="3"
+            titles="Awesome profile-cards"
+            link="http://beta.adalab.es/project-promo-n-module-2-team-3/"
+            image={p3}
+            desc="Responsive web application to design, create and generate a
+            business card to share"
+            linkGH="https://github.com/Adalab/project-promo-n-module-2-team-3"
+          />
+          <ProjectItem
+            id="4"
+            titles="TV Shows Browser"
+            link="http://beta.adalab.es/modulo-2-evaluacion-final-JuditAldeguer/"
+            image={p4}
+            desc="TV show API browser to add your favourites and save them in
+            the local storage. Web application developed with JavaScript"
+            linkGH="https://github.com/Adalab/modulo-2-evaluacion-final-JuditAldeguer"
+          />
+          <ProjectItem
+            id="5"
+            titles="Las 4Fantásticas"
+            link="http://beta.adalab.es/project-promo-n-module-1-team-6/"
+            image={p5}
+            desc="Responsive contact web application developed with HTML5 &amp;
+            CSS3"
+            linkGH="https://github.com/Adalab/project-promo-n-module-1-team-6"
+          />
+          <ProjectItem
+            id="6"
+            titles="Anonymous Proxy"
+            link="http://beta.adalab.es/modulo-1-evaluacion-final-JuditAldeguer/"
+            image={p6}
+            desc="Responsive contact web application developed with HTML5 &amp;
+            CSS3"
+            linkGH="https://github.com/Adalab/modulo-1-evaluacion-final-JuditAldeguer"
+          />
+          <ProjectItem
+            id="7"
+            titles="Clubs"
+            link="http://beta.adalab.es/modulo-3-evaluacion-intermedia-JuditAldeguer/"
+            image={p7}
+            desc="Web application with React to add your favourites clubs and save them in
+            the local storage."
+            linkGH="https://github.com/Adalab/modulo-3-evaluacion-intermedia-JuditAldeguer"
+          />
+        </ul>
       </section>
     </main>
   );

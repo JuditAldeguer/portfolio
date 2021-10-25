@@ -1,5 +1,18 @@
 //Styles
 import '../styles/layout/main.scss';
+//Images
+import html5 from '../images/html5.svg';
+import css3 from '../images/css3.svg';
+import sass from '../images/sass.svg';
+import js from '../images/js.svg';
+import react from '../images/react.svg';
+import gulp from '../images/gulp.svg';
+import npm from '../images/npm.svg';
+import zeplin from '../images/zeplin.png';
+import git from '../images/git.svg';
+import github from '../images/github.svg';
+import vscode from '../images/vscode.svg';
+import scrum from '../images/scrum.png';
 // //Components
 // import Links from './secondary-components/Links';
 
@@ -29,88 +42,40 @@ const Main = (props) => {
           <h3 class="tech_title">Technical Skills</h3>
           <ul class="tech_list">
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images/html5.87d71701.svg"
-                alt="HTML5 Icon"
-              />
+              <img class="tech_icon" src={html5} alt="HTML5 Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//css3.e87d85be.svg"
-                alt="CSS3 Icon"
-              />
+              <img class="tech_icon" src={css3} alt="CSS3 Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//sass.7b9e84a2.svg"
-                alt="Sass Icon"
-              />
+              <img class="tech_icon" src={sass} alt="Sass Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//js.e51818a4.svg"
-                alt="JavaScript Icon"
-              />
+              <img class="tech_icon" src={js} alt="JavaScript Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//react.4e0c4c03.svg"
-                alt="React Icon"
-              />
+              <img class="tech_icon" src={react} alt="React Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//gulp.ed96a48b.svg"
-                alt="Gulp Icon"
-              />
+              <img class="tech_icon" src={gulp} alt="Gulp Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//npm.c7b31f60.svg"
-                alt="Npm Icon"
-              />
+              <img class="tech_icon" src={npm} alt="Npm Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images/zeplin.png"
-                alt="Zeplin Icon"
-              />
+              <img class="tech_icon" src={zeplin} alt="Zeplin Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//git.fd54052d.svg"
-                alt="Git Icon"
-              />
+              <img class="tech_icon" src={git} alt="Git Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//github.bfe22a7c.svg"
-                alt="Github Icon/"
-              />
+              <img class="tech_icon" src={github} alt="Github Icon/" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//code.84b3047a.svg"
-                alt="VS Code Icon"
-              />
+              <img class="tech_icon" src={vscode} alt="VS Code Icon" />
             </li>
             <li class="tech_item">
-              <img
-                class="tech_icon"
-                src="../images//scrum.9a0e9f3b.png"
-                alt="Scrum Icon"
-              />
+              <img class="tech_icon" src={scrum} alt="Scrum Icon" />
             </li>
           </ul>
         </article>

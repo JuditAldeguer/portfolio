@@ -3,6 +3,14 @@
 
 header {
   margin-bottom: 3rem;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .cover {
@@ -12,4 +20,53 @@ header {
   background-size: cover;
   height: 75vh;
   border-radius: 0 100% 100% 0/50%;
+}
+
+.coverText {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 25vh;
+  @include tablet {
+    width: 50vw;
+  }
+}
+
+.cover_mainTitle {
+  color: $colorCover-h1;
+  font-size: 2rem;
+  font-weight: 800;
+  @include tablet {
+    font-size: 45px;
+  }
+}
+
+.cover_title {
+  color: $colorCover-h2;
+  font-size: 1.5rem;
+  padding-bottom: 0.7rem;
+  opacity: 0;
+  -webkit-transform: translateX(3rem);
+  transform: translateX(3rem);
+  -webkit-animation: fadeIn 2s ease forwards;
+  animation: fadeIn 2s ease forwards;
+  @include tablet {
+    font-size: 2rem;
+    padding-bottom: 2.2rem;
+  }
+}
+
+.cover_text {
+  color: $colorCover-h1;
+  word-spacing: 2px;
+  position: relative;
+  width: max-content;
+  @include tablet {
+    font-size: 2rem;
+  }
 }

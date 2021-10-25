@@ -15,17 +15,17 @@ const Links = (props) => {
           </div>
         </li>
         <li className="navItem">
-          <Navlinks link="#aboutMe" classname="nav_link">
+          <Navlinks link="#aboutMe" classtext="nav_link">
             About Me
           </Navlinks>
         </li>
         <li className="navItem">
-          <Navlinks link="#projects" classname="nav_link">
+          <Navlinks link="#projects" classtext="nav_link">
             Projects
           </Navlinks>
         </li>
         <li className="navItem">
-          <Navlinks link="#contact" classname="nav_link">
+          <Navlinks link="#contact" classtext="nav_link">
             Contact
           </Navlinks>
         </li>

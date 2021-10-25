@@ -5,7 +5,7 @@ const Navlinks = (props) => {
     <NavLink
       to={props.link}
       title={props.link}
-      className={props.classname}
+      className={props.classtext}
       activeClassName="selected-link"
     >
       {props.children}

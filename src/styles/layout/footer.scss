@@ -1,12 +1,96 @@
 @import '../core/variables.scss';
+@import '../core/mixins.scss';
 
-footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  padding-left: 1rem;
-  color: rgb(54, 53, 53);
-  width: 100vw;
-  background-color: rgb(209, 199, 199);
-  border: grey solid 1px;
+.footer_contact,
+.footerCover {
+  display: flex;
+}
+
+.footer_contact {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @include tablet {
+  }
+}
+
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+
+.footer_text1 {
+  color: $colorFooter-h2;
+  font-size: 50px;
+}
+
+.talk_container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 50vw;
+  height: 30px;
+}
+
+.footer_text2 {
+  color: $colorCover-h1;
+  font-size: 25px;
+  padding-right: 10px;
+  font-weight: 800;
+}
+
+.talk_list {
+  color: $colorCover-h1;
+  font-size: 25px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+}
+
+.footerCover {
+  background-image: url('../../images/background-footer.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 50vw;
+  border-radius: 100% 0 0 100%/50%;
+  min-height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rrss_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rrss_link {
+  text-decoration: none;
+  color: $color-rrss;
+}
+.footerList_item {
+  padding: 25px;
+}
+
+.footer_arrowCopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.arrowIcon {
+  font-size: 35px;
+  color: $colorProjects-icon;
+  margin-bottom: 8px;
+}
+
+.copy {
+  font-size: 12px;
 }

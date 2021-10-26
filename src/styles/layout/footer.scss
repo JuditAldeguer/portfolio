@@ -1,5 +1,6 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
+@import '../core/animation.scss';
 
 .footer {
   width: 100%;
@@ -42,6 +43,7 @@
 .talk_list {
   color: $colorCover-h1;
   font-size: 25px;
+  animation: change 5s infinite;
 }
 
 .fa,

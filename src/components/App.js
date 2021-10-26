@@ -29,9 +29,6 @@ function App() {
           </ModalWindow>
         </Route>
         <Route>
-          <Header />
-          <Main />
-          <Footer />
           <NotFoundPage />
         </Route>
       </Switch>

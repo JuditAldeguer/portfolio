@@ -1,8 +1,7 @@
-import { NavLink } from 'react-router-dom';
 //Styless
 import '../../styles/components/links.scss';
 //Components
-import Navlinks from './Navlinks';
+import Link from './Link';
 
 const Links = (props) => {
   return (
@@ -15,19 +14,19 @@ const Links = (props) => {
           </div>
         </li>
         <li className="navItem">
-          <Navlinks link="#aboutMe" classtext="nav_link">
+          <Link link="aboutMe" classtext="nav_link">
             About Me
-          </Navlinks>
+          </Link>
         </li>
         <li className="navItem">
-          <Navlinks link="#projects" classtext="nav_link">
+          <Link link="projects" classtext="nav_link">
             Projects
-          </Navlinks>
+          </Link>
         </li>
         <li className="navItem">
-          <Navlinks link="#contact" classtext="nav_link">
+          <Link link="contact" classtext="nav_link">
             Contact
-          </Navlinks>
+          </Link>
         </li>
       </ul>
     </nav>

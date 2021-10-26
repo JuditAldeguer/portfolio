@@ -25,11 +25,22 @@ function App() {
         <Route path="/header" exact></Route>
         <Route path="/cv" exact>
           <ModalWindow title="Press to Download CV">
-            <p>Download CV</p>
-            <img
-              src="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens_ENG.pdf"
-              alt="CV"
-            />
+            <a
+              className="link_download"
+              href="https://drive.google.com/file/d/1KOCH1zDOpmJZDOBgVosi_BuWFd0QrhfF/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download English CV
+            </a>
+            <a
+              className="link_download"
+              href="https://drive.google.com/file/d/1BCwVeIoUrcUGavLogughw3Z3h9Jqf-ZM/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download Spanish CV
+            </a>
           </ModalWindow>
         </Route>
         <Route>

@@ -49,14 +49,16 @@ const Main = (props) => {
             <a
               className="link_download"
               href="https://drive.google.com/file/d/1KOCH1zDOpmJZDOBgVosi_BuWFd0QrhfF/view?usp=sharing"
-              download
+              target="_blank"
+              rel="noreferrer"
             >
               Download English CV
             </a>
             <a
               className="link_download"
               href="https://drive.google.com/file/d/1BCwVeIoUrcUGavLogughw3Z3h9Jqf-ZM/view?usp=sharing"
-              download
+              target="_blank"
+              rel="noreferrer"
             >
               Download Spanish CV
             </a>

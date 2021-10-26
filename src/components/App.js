@@ -11,9 +11,6 @@ import Footer from './Footer';
 import NotFoundPage from './secondary-components/NotFoundPage';
 
 function App() {
-  const routeData = useRouteMatch('/product-detail/:id');
-  const productId = routeData !== null ? routeData.params.productId : '';
-
   return (
     <div className="page">
       <Switch>

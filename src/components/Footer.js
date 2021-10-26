@@ -58,6 +58,20 @@ const Footer = (props) => {
               ></i>
             </a>
           </li>
+          <li className="footerList_item">
+            <a
+              href="https://twitter.com/JuditAldeguer"
+              alt="Twitter"
+              target="_blank"
+              rel="noreferrer"
+              className="rrss_link"
+            >
+              <i
+                className="fab fa-twitter-square fa-lg icon"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </li>
         </ul>
         <hr />
         <div className="footer_copy">

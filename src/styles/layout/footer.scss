@@ -1,6 +1,16 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
 
+.footer {
+  width: 100%;
+  background: linear-gradient(
+    #f8f8fa,
+    $color-rrss,
+    $colorProjects-desc,
+    $color-rrss,
+    #f8f8fa
+  );
+}
 .footer_text {
   display: flex;
   flex-direction: column;

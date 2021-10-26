@@ -3,13 +3,11 @@
 
 // About me---
 .aboutMe {
-  background: url('../../images/background-old9.jpg');
-  background-position: 50%;
+  background: url('../../images/background-old9.jpg') no-repeat;
+  background-position: 0%;
+  background-size: cover;
   width: 100%;
   min-width: 360px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0;
   height: auto;
   min-height: 100vh;
   display: flex;
@@ -54,7 +52,7 @@
 
 .link_download {
   border-radius: 10px;
-  border: solid 2px $colorMain-h3;
+  border: solid 2px $colorCover-h1;
   background-color: $colorMain-h2;
   color: $color-rrss;
   padding: 0.2rem;
@@ -63,10 +61,10 @@
   @include tablet {
     font-weight: bolder;
     padding: 0.5rem;
+    margin: 1rem;
   }
 }
 //Tech---
-
 .tech_container {
   padding: 7rem 0 1rem 0;
 }
@@ -126,6 +124,13 @@
 
 // Projects---
 .projects {
+  background: linear-gradient(
+    #f8f8fa,
+    $color-rrss,
+    $colorProjects-desc,
+    $color-rrss,
+    #f8f8fa
+  );
   width: 100%;
   min-width: 360px;
   height: auto;

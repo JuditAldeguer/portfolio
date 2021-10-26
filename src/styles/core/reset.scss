@@ -9,3 +9,8 @@
 a {
   text-decoration: none;
 }
+
+a:hover {
+  opacity: 0.6;
+  transform: scale(1.5);
+}

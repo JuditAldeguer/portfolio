@@ -1,19 +1,6 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
 
-.footer_contact,
-.footerCover {
-  display: flex;
-}
-
-.footer_contact {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  @include tablet {
-  }
-}
-
 .footer_text {
   display: flex;
   flex-direction: column;
@@ -53,44 +40,43 @@
 }
 
 .footerCover {
-  background-image: url('../../images/background-footer.jpg');
-  background-repeat: no-repeat;
-  background-position: 50%;
-  width: 50vw;
-  border-radius: 100% 0 0 100%/50%;
-  min-height: 90vh;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.rrss_list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('../../images/footer.jpg');
+  width: 100vw;
+  margin-top: 1rem;
+}
+
+.arrowIcon {
+  font-size: 20px;
+  color: $color-rrss;
+  margin: 1rem auto;
+}
+
+.rrss_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .rrss_link {
-  text-decoration: none;
   color: $color-rrss;
 }
 .footerList_item {
   padding: 25px;
 }
 
-.footer_arrowCopy {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.footer hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 40%;
+  border-top: 2px solid $color-rrss;
 }
-
-.arrowIcon {
-  font-size: 35px;
-  color: $colorProjects-icon;
-  margin-bottom: 8px;
-}
-
 .copy {
   font-size: 12px;
+  color: white;
+  margin-bottom: 1rem;
 }

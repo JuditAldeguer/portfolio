@@ -28,7 +28,7 @@ const Main = (props) => {
   return (
     <main>
       <section id="aboutMe" className="aboutMe">
-        <article>
+        <article className="about_container">
           <h2 className="about_mainTitle">About Me</h2>
           <p className="about_text">
             I am a Junior Frontend Developer who discovered programming thanks
@@ -45,23 +45,23 @@ const Main = (props) => {
             I consider myself a hard-working and fast-learner person, who enjoys
             challenges..
           </p>
-          <a
-            className="link_download"
-            href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens_ENG.pdf"
-            download
-          >
-            Download English CV
-          </a>
-          <a
-            className="link_download"
-            href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens.pdf"
-            download
-          >
-            Download Spanish CV
-          </a>
+          <div>
+            <a
+              className="link_download"
+              href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens_ENG.pdf"
+              download
+            >
+              Download English CV
+            </a>
+            <a
+              className="link_download"
+              href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens.pdf"
+              download
+            >
+              Download Spanish CV
+            </a>
+          </div>
         </article>
-      </section>
-      <section className="tech">
         <article className="tech_container">
           <h3 className="tech_title">Technical Skills</h3>
           <ul className="tech_list">

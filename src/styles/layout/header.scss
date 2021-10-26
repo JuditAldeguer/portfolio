@@ -32,22 +32,32 @@
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-align-items: center;
   align-items: center;
   height: 25vh;
   @include tablet {
     width: 45vw;
+    height: 100vh;
+    justify-content: space-between;
   }
 }
 
+.linkedin_insignia {
+  display: none;
+  @include tablet {
+    opacity: 0.8;
+    display: block;
+    transform: scale(0.9);
+  }
+}
 .cover_mainTitle {
   color: $colorCover-h1;
   font-size: 2rem;
   font-weight: 800;
+  padding-top: 0;
   @include tablet {
     font-size: 33px;
+    padding-top: 15rem;
   }
 }
 

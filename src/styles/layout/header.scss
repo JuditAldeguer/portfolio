@@ -1,5 +1,6 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
+@import '../core/animation.scss';
 
 .header {
   margin-bottom: 3rem;
@@ -37,7 +38,7 @@
   align-items: center;
   height: 25vh;
   @include tablet {
-    width: 50vw;
+    width: 45vw;
   }
 }
 
@@ -46,7 +47,7 @@
   font-size: 2rem;
   font-weight: 800;
   @include tablet {
-    font-size: 45px;
+    font-size: 33px;
   }
 }
 
@@ -54,11 +55,11 @@
   color: $colorCover-h2;
   font-size: 1.5rem;
   padding-bottom: 0.7rem;
-  // opacity: 0;
-  // transform: translateX(3rem);
-  // animation: fadeIn 2s ease forwards;
+  opacity: 0;
+  transform: translateX(3rem);
+  animation: fadeIn 2s ease forwards;
   @include tablet {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 2.2rem;
   }
 }
@@ -69,6 +70,29 @@
   position: relative;
   width: max-content;
   @include tablet {
-    font-size: 2rem;
+    font-size: 1.4rem;
+  }
+  &:before {
+    background: white;
+    animation: typewriter 5s steps(25) 1.5s forwards;
+    animation: typewriter $typewriterSpeed steps(25) 1.5s forwards;
+  }
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  &::after {
+    width: 0.125em;
+    background: $colorCover-h1;
+    animation: typewriter 5s steps(25) 1.5s forwards,
+      blinkCursor 0.75s steps(25) infinite;
+    animation: typewriter $typewriterSpeed steps($typewriterCharacters) 1.5s
+        forwards,
+      blinkCursor 0.75s steps($typewriterCharacters) infinite;
   }
 }

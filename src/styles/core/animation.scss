@@ -17,3 +17,22 @@
     margin-top: 1px;
   }
 }
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blinkCursor {
+  to {
+    background: transparent;
+  }
+}

@@ -26,6 +26,10 @@ function App() {
         <Route path="/cv" exact>
           <ModalWindow title="Press to Download CV">
             <p>Download CV</p>
+            <img
+              src="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens_ENG.pdf"
+              alt="CV"
+            />
           </ModalWindow>
         </Route>
         <Route>

@@ -48,14 +48,14 @@ const Main = (props) => {
           <div>
             <a
               className="link_download"
-              href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens_ENG.pdf"
+              href="https://drive.google.com/file/d/1KOCH1zDOpmJZDOBgVosi_BuWFd0QrhfF/view?usp=sharing"
               download
             >
               Download English CV
             </a>
             <a
               className="link_download"
-              href="../files/Resume-JuniorFrontend-Judit_Aldeguer_Vicens.pdf"
+              href="https://drive.google.com/file/d/1BCwVeIoUrcUGavLogughw3Z3h9Jqf-ZM/view?usp=sharing"
               download
             >
               Download Spanish CV

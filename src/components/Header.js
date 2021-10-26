@@ -12,8 +12,8 @@ const Header = (props) => {
         </div>
         <div className="coverText">
           <h1 className="cover_mainTitle">Judit Aldeguer Vicens</h1>
-          <h2 className="cover_title">&lt;Junior Frontend Developer&gt;</h2>
-          <p className="cover_text">Welcome to my portfolio!</p>
+          <h2 className="cover_title">Junior Frontend Developer</h2>
+          <p className="cover_text">Get to know more about me!</p>
         </div>
       </section>
     </header>

@@ -10,12 +10,11 @@
 
 a {
   text-decoration: none;
-  color: $color-rrss;
+  color: $color-rrss !important;
 }
 
 a:focus,
 a:hover {
-  opacity: 0.6;
-  transform: scale(1.5);
-  color: $color-rrss;
+  opacity: 0.6 !important;
+  transform: scale(1.5) !important;
 }

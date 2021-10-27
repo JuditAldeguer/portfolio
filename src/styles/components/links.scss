@@ -35,3 +35,9 @@
 .nav_link {
   color: #fdfdfd;
 }
+
+.nav_link,
+.nav_link:focus,
+.nav_link:hover {
+  color: #fdfdfd !important;
+}

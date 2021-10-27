@@ -43,7 +43,7 @@ const Main = (props) => {
           </p>
           <p className="about_text">
             I consider myself a hard-working and fast-learner person, who enjoys
-            challenges..
+            challenges.
           </p>
           <div className="div_download">
             <a

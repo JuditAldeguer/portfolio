@@ -9,22 +9,23 @@
   width: 100%;
   min-width: 320px;
   height: auto;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include tablet {
-    min-height: 120vh;
-  }
+  justify-content: space-around;
 }
 
 .about_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
   @include tablet {
-    padding-top: 4rem;
+    padding-top: 8rem;
+  }
+  @include desktop {
+    padding-top: 20rem;
   }
 }
 
@@ -33,18 +34,25 @@
 }
 
 .about_text {
-  padding: 0 2rem 1rem 2rem;
   font-size: 1.2rem;
   line-height: 1.7rem;
+  padding: 0 2rem 1rem 2rem;
   text-align: center;
   @include tablet {
-    line-height: 2rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     padding: 0 2rem 2rem 2rem;
-    font-size: 2rem;
+  }
+  @include desktop {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
   }
 }
 
 .div_download {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
   margin-top: 2.5rem;
   @include tablet {
     margin-top: 2rem;
@@ -57,21 +65,22 @@
   background-color: $colorMain-h2;
   color: $color-rrss;
   padding: 0.2rem;
-  margin: 0.5rem;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   @include tablet {
     font-weight: bolder;
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     padding: 0.5rem;
-    margin: 1rem;
   }
 }
 //Tech---
 .tech_container {
-  padding: 8rem 0 1rem 0;
+  padding: 9rem 0 1rem 0;
   @include tablet {
-    padding: 13rem 0 1rem 0;
+    padding: 10rem 0 7rem 0;
+  }
+  @include desktop {
+    padding: 20rem 0 10rem 0;
   }
 }
 .tech_title {
@@ -134,11 +143,21 @@
   min-width: 320px;
   height: auto;
   min-height: 100vh;
+  @include tablet {
+    padding-bottom: 5rem;
+  }
+  @include desktop {
+    padding-top: 10rem;
+  }
 }
 
 .projects_mainTitle {
-  padding-top: 1rem;
+  padding-top: 2rem;
   @include tablet {
+    padding-top: 1rem;
+  }
+  @include desktop {
+    padding-top: 10rem;
   }
 }
 
@@ -215,8 +234,9 @@
   font-size: 3rem;
   font-weight: 900;
   @include tablet {
-    font-size: 2.5rem;
     letter-spacing: 0.375rem;
     word-spacing: 0.625rem;
+    font-size: 3.2rem;
+    padding-bottom: 3rem;
   }
 }

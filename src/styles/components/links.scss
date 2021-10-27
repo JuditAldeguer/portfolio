@@ -6,18 +6,17 @@
   padding: 0.5rem 0;
   width: 100%;
   background-image: url('../../images/footer.jpg');
-  // background-color: $bg-color-nav;
 }
 .navList {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  cursor: pointer;
 }
 .button_es {
   margin-right: 8px;
 }
 .button {
+  cursor: pointer;
   background-color: #fdfdfd;
   border: 2px solid #fdfdfd;
   border-radius: 15%;
@@ -25,6 +24,7 @@
   font-weight: 900;
 }
 .navItem {
+  cursor: pointer;
   padding-bottom: 5px;
   font-weight: 700;
   word-spacing: 4px;

@@ -93,3 +93,12 @@
   color: white;
   margin-bottom: 1rem;
 }
+
+.fa:focus,
+.fa:hover,
+.fab:focus,
+.fab:hover,
+.fas:focus,
+.fas:hover {
+  transform: scale(1.5);
+}

@@ -50,12 +50,21 @@
 }
 
 .div_download {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: space-evenly;
+  // gap: 1rem;
   margin-top: 2.5rem;
   @include tablet {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin-right: 3rem;
+  }
+  @include desktop {
+    gap: 5rem;
+    justify-content: flex-end;
+    margin-right: 10rem;
   }
 }
 

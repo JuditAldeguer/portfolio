@@ -5,7 +5,8 @@
   position: fixed;
   padding: 0.5rem 0;
   width: 100%;
-  background-color: $bg-color-nav;
+  background-image: url('../../images/footer.jpg');
+  // background-color: $bg-color-nav;
 }
 .navList {
   display: flex;
@@ -33,11 +34,4 @@
 }
 .nav_link {
   color: #fdfdfd;
-}
-
-//---------------PENDING -------------------------
-.selected-link {
-  color: $colorCover-h1;
-  font-weight: bolder;
-  font-size: larger;
 }

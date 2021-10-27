@@ -29,7 +29,7 @@ const Main = (props) => {
     <main>
       <section id="aboutMe" className="aboutMe">
         <article className="about_container">
-          <h2 className="about_mainTitle">About Me</h2>
+          <h2 className="about_mainTitle title">About Me</h2>
           <p className="about_text">
             I am a Junior Frontend Developer who discovered programming thanks
             to my surroundings, and fell in love with the community, the
@@ -45,7 +45,7 @@ const Main = (props) => {
             I consider myself a hard-working and fast-learner person, who enjoys
             challenges..
           </p>
-          <div>
+          <div className="div_download">
             <a
               className="link_download"
               href="https://drive.google.com/file/d/1KOCH1zDOpmJZDOBgVosi_BuWFd0QrhfF/view?usp=sharing"
@@ -65,7 +65,7 @@ const Main = (props) => {
           </div>
         </article>
         <article className="tech_container">
-          <h3 className="tech_title">Technical Skills</h3>
+          <h3 className="tech_title title">Technical Skills</h3>
           <ul className="tech_list">
             <li className="tech_item">
               <img className="tech_icon" src={html5} alt="HTML5 Icon" />
@@ -107,7 +107,7 @@ const Main = (props) => {
         </article>
       </section>
       <section id="projects" className="projects">
-        <h2 className="projects_mainTitle">Projects</h2>
+        <h2 className="projects_mainTitle title">Projects</h2>
         <ul className="projects_listContainer">
           <ProjectItem
             id="1"

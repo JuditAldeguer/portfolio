@@ -1,3 +1,5 @@
+@import '../core/variables.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -8,9 +10,12 @@
 
 a {
   text-decoration: none;
+  color: $color-rrss;
 }
 
+a:focus,
 a:hover {
   opacity: 0.6;
   transform: scale(1.5);
+  color: $color-rrss;
 }

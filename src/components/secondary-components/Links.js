@@ -14,19 +14,13 @@ const Links = (props) => {
           </div>
         </li>
         <li className="navItem">
-          <Link link="aboutMe" classtext="nav_link">
-            About Me
-          </Link>
+          <Link link="aboutMe">About Me</Link>
         </li>
         <li className="navItem">
-          <Link link="projects" classtext="nav_link">
-            Projects
-          </Link>
+          <Link link="projects">Projects</Link>
         </li>
         <li className="navItem">
-          <Link link="contact" classtext="nav_link">
-            Contact
-          </Link>
+          <Link link="contact">Contact</Link>
         </li>
       </ul>
     </nav>

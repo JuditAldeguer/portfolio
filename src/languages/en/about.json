@@ -1,0 +1,12 @@
+{
+    "about":{
+        "title":"About Me",
+        "description1": "I am a Junior Frontend Developer who discovered programming thanks to my surroundings, and fell in love with the community, the creativity and the possibility of making an impact on society. My previous work experiences have made me a very adaptable person who enjoys continuous learning.",
+        "description2":"My hobbies include taking care of my people, nature, sports and traveling.",
+        "description3":"I consider myself a hard-working and fast-learner person, who enjoys challenges.",
+        "download1": "Download English CV",
+        "download2": "Download Spanish CV",
+        "techTitle": "Technical Skills"
+    }
+
+}

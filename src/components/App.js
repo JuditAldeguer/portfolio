@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import callToApi from '../services/api';
 //Styles
 import '../styles/App.scss';
+//Image
+import preview from '../images/preview-web.png';
 //Components
 import Header from './Header';
 import Main from './Main';

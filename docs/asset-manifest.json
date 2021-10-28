@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.1e683c3f.chunk.css",
-    "main.js": "./static/js/main.1518b927.chunk.js",
-    "main.js.map": "./static/js/main.1518b927.chunk.js.map",
+    "main.js": "./static/js/main.84020fc0.chunk.js",
+    "main.js.map": "./static/js/main.84020fc0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.70966797.js",
     "runtime-main.js.map": "./static/js/runtime-main.70966797.js.map",
     "static/js/2.25eebd10.chunk.js": "./static/js/2.25eebd10.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/p5.efa2e36a.png": "./static/media/p5.efa2e36a.png",
     "static/media/p6.bf546451.png": "./static/media/p6.bf546451.png",
     "static/media/p7.d04aa025.png": "./static/media/p7.d04aa025.png",
+    "static/media/preview-web.6b76fd47.png": "./static/media/preview-web.6b76fd47.png",
     "static/media/react.4e0c4c03.svg": "./static/media/react.4e0c4c03.svg",
     "static/media/sass.7b9e84a2.svg": "./static/media/sass.7b9e84a2.svg",
     "static/media/scrum.9a0e9f3b.png": "./static/media/scrum.9a0e9f3b.png",
@@ -36,6 +37,6 @@
     "static/js/runtime-main.70966797.js",
     "static/js/2.25eebd10.chunk.js",
     "static/css/main.1e683c3f.chunk.css",
-    "static/js/main.1518b927.chunk.js"
+    "static/js/main.84020fc0.chunk.js"
   ]
 }

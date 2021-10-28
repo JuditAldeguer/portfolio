@@ -104,9 +104,10 @@ const Main = (props) => {
               <img className="tech_icon" src={scrum} alt="Scrum Icon" />
             </li>
           </ul>
+          <div id="projects" />
         </article>
       </section>
-      <section id="projects" className="projects">
+      <section className="projects">
         <h2 className="projects_mainTitle title">Projects</h2>
         <ul className="projects_listContainer">
           <ProjectItem

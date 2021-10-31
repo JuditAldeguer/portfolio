@@ -122,11 +122,11 @@ const Main = (props) => {
           <ProjectItem
             id="2"
             titles="Rick &amp; Morty's WIKI"
-            link="http://beta.adalab.es/modulo-3-evaluacion-final-JuditAldeguer/"
+            link="https://juditaldeguer.github.io/modulo-3-evaluacion-final-JuditAldeguer/"
             image={p2}
             desc="Web application with React through an API requests, SPAs and
             filters by character"
-            linkGH="https://github.com/Adalab/modulo-3-evaluacion-final-JuditAldeguer"
+            linkGH="https://github.com/JuditAldeguer/modulo-3-evaluacion-final-JuditAldeguer"
           />
           <ProjectItem
             id="3"
@@ -140,11 +140,11 @@ const Main = (props) => {
           <ProjectItem
             id="4"
             titles="TV Shows Browser"
-            link="http://beta.adalab.es/modulo-2-evaluacion-final-JuditAldeguer/"
+            link="http://juditaldeguer.github.io/modulo-2-evaluacion-final-JuditAldeguer/"
             image={p4}
             desc="TV show API browser to add your favourites and save them in
             the local storage. Web application developed with JavaScript"
-            linkGH="https://github.com/Adalab/modulo-2-evaluacion-final-JuditAldeguer"
+            linkGH="https://github.com/JuditAldeguer/modulo-2-evaluacion-final-JuditAldeguer"
           />
           <ProjectItem
             id="5"
@@ -156,22 +156,39 @@ const Main = (props) => {
             linkGH="https://github.com/Adalab/project-promo-n-module-1-team-6"
           />
           <ProjectItem
-            id="6"
-            titles="Anonymous Proxy"
-            link="http://beta.adalab.es/modulo-1-evaluacion-final-JuditAldeguer/"
+            id="9"
+            titles="Hangman Game"
+            link="https://juditaldeguer.github.io/hangman-game/"
             image={p6}
             desc="Responsive contact web application developed with HTML5 &amp;
             CSS3"
-            linkGH="https://github.com/Adalab/modulo-1-evaluacion-final-JuditAldeguer"
+            linkGH="https://github.com/JuditAldeguer/hangman-game"
           />
           <ProjectItem
             id="7"
             titles="Clubs"
-            link="http://beta.adalab.es/modulo-3-evaluacion-intermedia-JuditAldeguer/"
+            link="http://juditaldeguer.github.io/modulo-3-evaluacion-intermedia-JuditAldeguer/"
             image={p7}
             desc="Web application with React to add your favourites clubs and save them in
             the local storage."
-            linkGH="https://github.com/Adalab/modulo-3-evaluacion-intermedia-JuditAldeguer"
+            linkGH="https://github.com/JuditAldeguer/modulo-3-evaluacion-intermedia-JuditAldeguer"
+          />
+          <ProjectItem
+            id="8"
+            titles="Adivina el número"
+            link="https://juditaldeguer.github.io/modulo-2-evaluacion-intermedia-JuditAldeguer/"
+            image={p7}
+            desc="Web application made with JS to play to guess the number chosen at random by the computer."
+            linkGH="https://github.com/JuditAldeguer/modulo-2-evaluacion-intermedia-JuditAldeguer"
+          />
+          <ProjectItem
+            id="6"
+            titles="Anonymous Proxy"
+            link="http://juditaldeguer.github.io/modulo-1-evaluacion-final-JuditAldeguer/"
+            image={p6}
+            desc="Responsive contact web application developed with HTML5 &amp;
+            CSS3"
+            linkGH="https://github.com/JuditAldeguer/modulo-1-evaluacion-final-JuditAldeguer"
           />
         </ul>
       </section>

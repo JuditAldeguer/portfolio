@@ -16,6 +16,7 @@ import NotFoundPage from './secondary-components/NotFoundPage';
 function App() {
   return (
     <div className="page">
+      <img src={preview} alt="preview" className="hidden" />
       <Header />
       <Main />
       <Footer />

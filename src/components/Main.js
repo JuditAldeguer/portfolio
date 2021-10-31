@@ -20,6 +20,8 @@ import p4 from '../images/p4.png';
 import p5 from '../images/p5.png';
 import p6 from '../images/p6.png';
 import p7 from '../images/p7.png';
+import p8 from '../images/p8.png';
+import p9 from '../images/p9.png';
 
 //Components
 import ProjectItem from './secondary-components/ProjectItem';
@@ -133,8 +135,7 @@ const Main = (props) => {
             titles="Awesome profile-cards"
             link="http://beta.adalab.es/project-promo-n-module-2-team-3/"
             image={p3}
-            desc="Responsive web application to design, create and generate a
-            business card to share"
+            desc="Responsive web application made with Java Script, to design, create and generate a business card to share"
             linkGH="https://github.com/Adalab/project-promo-n-module-2-team-3"
           />
           <ProjectItem
@@ -159,9 +160,8 @@ const Main = (props) => {
             id="9"
             titles="Hangman Game"
             link="https://juditaldeguer.github.io/hangman-game/"
-            image={p6}
-            desc="Responsive contact web application developed with HTML5 &amp;
-            CSS3"
+            image={p9}
+            desc="Web application with React that allows you to play the famous Hangman Game and has a multiplayer / individual option"
             linkGH="https://github.com/JuditAldeguer/hangman-game"
           />
           <ProjectItem
@@ -177,8 +177,8 @@ const Main = (props) => {
             id="8"
             titles="Adivina el número"
             link="https://juditaldeguer.github.io/modulo-2-evaluacion-intermedia-JuditAldeguer/"
-            image={p7}
-            desc="Web application made with JS to play to guess the number chosen at random by the computer."
+            image={p8}
+            desc="Web application made with Java Script to play guessing the number chosen at random by the computer."
             linkGH="https://github.com/JuditAldeguer/modulo-2-evaluacion-intermedia-JuditAldeguer"
           />
           <ProjectItem
@@ -186,7 +186,7 @@ const Main = (props) => {
             titles="Anonymous Proxy"
             link="http://juditaldeguer.github.io/modulo-1-evaluacion-final-JuditAldeguer/"
             image={p6}
-            desc="Responsive contact web application developed with HTML5 &amp;
+            desc="Responsive web developed with HTML5 &amp;
             CSS3"
             linkGH="https://github.com/JuditAldeguer/modulo-1-evaluacion-final-JuditAldeguer"
           />

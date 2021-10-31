@@ -211,6 +211,9 @@
   width: 300px;
   border-radius: 12%;
   box-shadow: 0.3em 0.3em 0.5em $colorMain-h2;
+  @media (min-width: 360px) {
+    width: 340px;
+  }
 }
 
 .item_textContainer {

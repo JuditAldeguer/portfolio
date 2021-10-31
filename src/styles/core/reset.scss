@@ -15,8 +15,9 @@ a {
 
 a:focus,
 a:hover {
-  opacity: 0.6 !important;
-  transform: scale(1.5) !important;
+  text-decoration: none;
+  opacity: 0.6;
+  transform: scale(1.2);
 }
 
 .hidden {

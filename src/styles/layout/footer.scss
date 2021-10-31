@@ -74,8 +74,8 @@
   justify-content: center;
 }
 
-.rrss_link {
-  color: $color-rrss !important;
+.footerList_item .rrss_link {
+  color: $color-rrss;
 }
 .footerList_item {
   padding: 25px;
@@ -94,11 +94,13 @@
   margin-bottom: 1rem;
 }
 
-.fa:focus,
-.fa:hover,
-.fab:focus,
-.fab:hover,
-.fas:focus,
-.fas:hover {
+.footerList_item .fa:focus,
+.footerList_item .fa:hover,
+.footerList_item .fab:focus,
+.footerList_item .fab:hover,
+.footerList_item .fas:focus,
+.footerList_item .fas:hover,
+.back-to-top .fa:focus,
+.back-to-top .fa:hover {
   transform: scale(1.5);
 }

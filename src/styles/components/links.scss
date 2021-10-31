@@ -23,6 +23,12 @@
   color: $colorCover-h1;
   font-weight: 900;
 }
+
+div .button:focus,
+div .button:hover {
+  opacity: 0.6;
+  transform: scale(1.5);
+}
 .navItem {
   cursor: pointer;
   padding-bottom: 5px;
@@ -32,12 +38,15 @@
     letter-spacing: 3px;
   }
 }
-.nav_link {
+.navItem .nav_link {
   color: #fdfdfd;
 }
 
-.nav_link,
-.nav_link:focus,
-.nav_link:hover {
-  color: #fdfdfd !important;
+navItem .nav_link:focus,
+.navItem .nav_link:hover {
+  color: #fdfdfd;
+  text-decoration: none;
+  opacity: 0.6;
+  transform: scale(1.5);
+  border: white 1px solid;
 }

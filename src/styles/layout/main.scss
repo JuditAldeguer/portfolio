@@ -20,12 +20,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
+  @include big_mobile {
+    padding-top: 2rem;
+  }
   @include tablet {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
   @include desktop {
-    padding-top: 20rem;
+    padding-top: 10rem;
   }
 }
 
@@ -36,7 +39,7 @@
 .about_text {
   font-size: 1.2rem;
   line-height: 1.7rem;
-  padding: 0 2rem 1rem 2rem;
+  padding: 0 1rem 0.5rem 1rem;
   text-align: center;
   @include tablet {
     font-size: 2.5rem;
@@ -68,7 +71,7 @@
   }
 }
 
-.link_download {
+.div_download .link_download {
   border-radius: 0.625rem;
   border: solid 0.125rem $colorCover-h1;
   background-color: $colorMain-h2;
@@ -78,24 +81,38 @@
   font-size: 0.8rem;
   @include tablet {
     font-weight: bolder;
-    font-size: 2.1rem;
+    font-size: 2rem;
     padding: 0.5rem;
   }
 }
+
+.div_download .link_download:focus,
+.div_download .link_download:hover {
+  color: #fdfdfd;
+  text-decoration: none;
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
 //Tech---
 .tech_container {
-  padding: 9rem 0 1rem 0;
+  padding: 2rem 0 1rem 0;
+  @include big_mobile {
+    padding: 5rem 0 1rem 0;
+  }
   @include tablet {
-    padding: 10rem 0 7rem 0;
+    padding: 5rem 0 5rem 0;
   }
-  @include desktop {
-    padding: 20rem 0 10rem 0;
-  }
+  // @include desktop {
+  //   padding: 10rem 0 7rem 0;
+  // }
 }
-.tech_title {
+.tech_container .tech_title {
   padding-bottom: 2rem;
+  padding-top: 7rem;
   @include tablet {
-    padding-bottom: 1.5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
   }
 }
 
@@ -152,21 +169,13 @@
   min-width: 320px;
   height: auto;
   min-height: 100vh;
-  @include tablet {
-    padding-bottom: 5rem;
-  }
-  @include desktop {
-    padding-top: 10rem;
-  }
-}
-
-.projects_mainTitle {
   padding-top: 2rem;
   @include tablet {
-    padding-top: 1rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
   }
   @include desktop {
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
 }
 
@@ -211,7 +220,7 @@
   width: 300px;
   border-radius: 12%;
   box-shadow: 0.3em 0.3em 0.5em $colorMain-h2;
-  @media (min-width: 360px) {
+  @include big_mobile {
     width: 340px;
   }
 }

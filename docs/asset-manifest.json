@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.ce04bbaf.chunk.css",
-    "main.js": "./static/js/main.c2be1d05.chunk.js",
-    "main.js.map": "./static/js/main.c2be1d05.chunk.js.map",
+    "main.css": "./static/css/main.a32848e1.chunk.css",
+    "main.js": "./static/js/main.1f0eff53.chunk.js",
+    "main.js.map": "./static/js/main.1f0eff53.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.70966797.js",
     "runtime-main.js.map": "./static/js/runtime-main.70966797.js.map",
     "static/js/2.0fb8a8e0.chunk.js": "./static/js/2.0fb8a8e0.chunk.js",
     "static/js/2.0fb8a8e0.chunk.js.map": "./static/js/2.0fb8a8e0.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.ce04bbaf.chunk.css.map": "./static/css/main.ce04bbaf.chunk.css.map",
+    "static/css/main.a32848e1.chunk.css.map": "./static/css/main.a32848e1.chunk.css.map",
     "static/js/2.0fb8a8e0.chunk.js.LICENSE.txt": "./static/js/2.0fb8a8e0.chunk.js.LICENSE.txt",
     "static/media/header.scss": "./static/media/Judit.cf15ec1a.jpg",
     "static/media/main.scss": "./static/media/background-old9.4730cedc.jpg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.70966797.js",
     "static/js/2.0fb8a8e0.chunk.js",
-    "static/css/main.ce04bbaf.chunk.css",
-    "static/js/main.c2be1d05.chunk.js"
+    "static/css/main.a32848e1.chunk.css",
+    "static/js/main.1f0eff53.chunk.js"
   ]
 }

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import Link from './Link';
 
 const Links = (props) => {
-  const [t, i18n] = useTranslation('cover');
+  const [t, i18n] = useTranslation('nav');
 
   return (
     <nav className="nav">
@@ -29,13 +29,10 @@ const Links = (props) => {
           </div>
         </li>
         <li className="navItem">
-          <a className="nav_link" href={`#${props.link}`} title={props.link}>
-            {t(`nav.about`)}
-          </a>
-          {/* <Link link="aboutMe">about</Link> */}
+          <Link link="aboutMe">about</Link>
         </li>
         <li className="navItem">
-          <Link link="projects"> projects</Link>
+          <Link link="projects">projects</Link>
         </li>
         <li className="navItem">
           <Link link="contact">contact</Link>

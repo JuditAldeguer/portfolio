@@ -3,7 +3,7 @@ import '../styles/layout/footer.scss';
 import { useTranslation } from 'react-i18next';
 
 const Footer = (props) => {
-  const [t, i18n] = useTranslation('cover');
+  const [t, i18n] = useTranslation('footer');
   return (
     <footer id="contact" className="footer">
       <div className="footer_text">
@@ -82,7 +82,7 @@ const Footer = (props) => {
         <hr />
         <div className="footer_copy">
           <p className="copy">
-            © 2021 · {t('footer.text1')} Judit Aldeguer Vicens ·
+            © 2021 · {t('footer.copy')} Judit Aldeguer Vicens ·
           </p>
         </div>
       </div>

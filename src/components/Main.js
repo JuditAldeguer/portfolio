@@ -29,7 +29,7 @@ import p9 from '../images/p9.png';
 import ProjectItem from './secondary-components/ProjectItem';
 
 const Main = (props) => {
-  const [t, i18n] = useTranslation('cover');
+  const [t, i18n] = useTranslation('about');
   return (
     <main>
       <section id="aboutMe" className="aboutMe">

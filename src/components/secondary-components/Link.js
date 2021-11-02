@@ -1,9 +1,8 @@
 //i18
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Link = (props) => {
-  const [t, i18n] = useTranslation('cover');
+  const [t, i18n] = useTranslation('nav');
   return (
     <a className="nav_link" href={`#${props.link}`} title={props.link}>
       {t(`nav.${props.children}`)}

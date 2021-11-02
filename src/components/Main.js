@@ -41,7 +41,7 @@ const Main = (props) => {
           <div className="div_download">
             <a
               className="link_download"
-              href="https://drive.google.com/file/d/1KOCH1zDOpmJZDOBgVosi_BuWFd0QrhfF/view?usp=sharing"
+              href="//j-a-portfolio.herokuapp.com/cv_eng"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,7 +49,7 @@ const Main = (props) => {
             </a>
             <a
               className="link_download"
-              href="https://drive.google.com/file/d/1BCwVeIoUrcUGavLogughw3Z3h9Jqf-ZM/view?usp=sharing"
+              href="//j-a-portfolio.herokuapp.com/cv"
               target="_blank"
               rel="noreferrer"
             >

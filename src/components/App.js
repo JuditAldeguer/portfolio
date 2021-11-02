@@ -1,7 +1,4 @@
 import { Route, Switch } from 'react-router-dom';
-// import PropTypes from 'prop-types';
-//Services
-// import callToApi from '../services/api';
 //Styles
 import '../styles/App.scss';
 //Image
@@ -29,7 +26,7 @@ function App() {
           <ModalWindow title="Press to Download CV">
             <a
               className="link_download"
-              href="https://drive.google.com/file/d/1KOCH1zDOpmJZDOBgVosi_BuWFd0QrhfF/view?usp=sharing"
+              href="//j-a-portfolio.herokuapp.com/cv_eng"
               target="_blank"
               rel="noreferrer"
             >
@@ -37,7 +34,7 @@ function App() {
             </a>
             <a
               className="link_download"
-              href="https://drive.google.com/file/d/1BCwVeIoUrcUGavLogughw3Z3h9Jqf-ZM/view?usp=sharing"
+              href="//j-a-portfolio.herokuapp.com/cv"
               target="_blank"
               rel="noreferrer"
             >

@@ -1,5 +1,7 @@
 //Styles
 import '../styles/layout/main.scss';
+//i18
+import { useTranslation } from 'react-i18next';
 //Images
 import html5 from '../images/html5.svg';
 import css3 from '../images/css3.svg';
@@ -27,26 +29,15 @@ import p9 from '../images/p9.png';
 import ProjectItem from './secondary-components/ProjectItem';
 
 const Main = (props) => {
+  const [t, i18n] = useTranslation('cover');
   return (
     <main>
       <section id="aboutMe" className="aboutMe">
         <article className="about_container">
-          <h2 className="about_mainTitle title">About Me</h2>
-          <p className="about_text">
-            I am a Junior Frontend Developer who discovered programming thanks
-            to my surroundings, and fell in love with the community, the
-            creativity and the possibility of making an impact on society. My
-            previous work experiences have made me a very adaptable person who
-            enjoys continuous learning.
-          </p>
-          <p className="about_text">
-            My hobbies include taking care of my people, nature, sports and
-            traveling.
-          </p>
-          <p className="about_text">
-            I consider myself a hard-working and fast-learner person, who enjoys
-            challenges.
-          </p>
+          <h2 className="about_mainTitle title">{t('about.title')}</h2>
+          <p className="about_text">{t('about.description1')}</p>
+          <p className="about_text">{t('about.description2')}</p>
+          <p className="about_text">{t('about.description3')}</p>
           <div className="div_download">
             <a
               className="link_download"
@@ -54,7 +45,7 @@ const Main = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              Download English CV
+              {t('about.download1')}
             </a>
             <a
               className="link_download"
@@ -62,12 +53,12 @@ const Main = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              Download Spanish CV
+              {t('about.download2')}
             </a>
           </div>
         </article>
         <article className="tech_container">
-          <h3 className="tech_title title">Technical Skills</h3>
+          <h3 className="tech_title title">{t('about.techTitle')}</h3>
           <ul className="tech_list">
             <li className="tech_item">
               <img className="tech_icon" src={html5} alt="HTML5 Icon" />
@@ -110,7 +101,7 @@ const Main = (props) => {
         </article>
       </section>
       <section className="projects">
-        <h2 className="projects_mainTitle title">Projects</h2>
+        <h2 className="projects_mainTitle title">{t('about.project')}</h2>
         <ul className="projects_listContainer">
           <ProjectItem
             id="1"

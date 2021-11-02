@@ -1,9 +1,12 @@
 //Styles
 import '../styles/layout/header.scss';
+//i18
+import { useTranslation } from 'react-i18next';
 //Components
 import Links from './secondary-components/Links';
 
 const Header = (props) => {
+  const [t, i18n] = useTranslation('cover');
   return (
     <header id="header" className="header">
       <section className="header">
@@ -13,8 +16,8 @@ const Header = (props) => {
         <div className="coverText">
           <div>
             <h1 className="cover_mainTitle">Judit Aldeguer Vicens</h1>
-            <h2 className="cover_title">Junior Frontend Developer</h2>
-            <p className="cover_text">Get to know more about me!</p>
+            <h2 className="cover_title">{t('cover.job')}</h2>
+            <p className="cover_text">{t('cover.typewriter')}</p>
           </div>
           <div
             className="badge-base LI-profile-badge linkedin_insignia"

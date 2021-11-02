@@ -13,7 +13,7 @@ const Footer = (props) => {
           <ul className="talk_list">
             <li>{t('footer.text2')}</li>
             <li>
-              <i className="fas fa-phone-alt icon_phone" aria-hidden="true"></i>
+              <i className="fas fa-phone-alt icon_phone" aria-hidden="true" />
             </li>
           </ul>
         </div>

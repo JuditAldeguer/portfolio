@@ -19,9 +19,12 @@ const Footer = (props) => {
         </div>
       </div>
       <div className="footerCover">
-        <span class="back-to-top">
+        <span className="back-to-top">
           <a href="#header">
-            <i class="fa fa-angle-up fa-2x arrowIcon" aria-hidden="true"></i>
+            <i
+              className="fa fa-angle-up fa-2x arrowIcon"
+              aria-hidden="true"
+            ></i>
           </a>
         </span>
         <ul className="rrss_list">

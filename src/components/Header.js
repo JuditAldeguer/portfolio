@@ -1,6 +1,7 @@
 //Styles
 import '../styles/layout/header.scss';
 //i18
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 //Components
 import Links from './secondary-components/Links';

@@ -15,12 +15,15 @@ const Links = (props) => {
         <li>
           <div>
             <button
-              onClick={i18n.changeLanguage('es')}
+              onClick={() => i18n.changeLanguage('es')}
               className="button button_es"
             >
               ES
             </button>
-            <button onClick={i18n.changeLanguage('en')} className="button">
+            <button
+              onClick={() => i18n.changeLanguage('en')}
+              className="button"
+            >
               EN
             </button>
           </div>

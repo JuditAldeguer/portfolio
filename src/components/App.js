@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 //Services
-import callToApi from '../services/api';
+// import callToApi from '../services/api';
 //Styles
 import '../styles/App.scss';
 //Image

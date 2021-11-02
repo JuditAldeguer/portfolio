@@ -24,7 +24,6 @@ import p6 from '../images/p6.png';
 import p7 from '../images/p7.png';
 import p8 from '../images/p8.png';
 import p9 from '../images/p9.png';
-
 //Components
 import ProjectItem from './secondary-components/ProjectItem';
 

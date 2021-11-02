@@ -1,8 +1,3 @@
-// //Styles
-// import '../styles/layout/header.scss';
-// //Components
-// import Links from './secondary-components/Links';
-
 const ProjectItem = (props) => {
   return (
     <li className="projects_listItem" id={props.id}>

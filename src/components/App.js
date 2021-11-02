@@ -1,8 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 //Styles
 import '../styles/App.scss';
-//Image
-import preview from '../images/preview-web.png';
 //Components
 import Header from './Header';
 import Main from './Main';

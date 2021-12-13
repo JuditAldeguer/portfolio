@@ -16,10 +16,6 @@ function App() {
       <Footer />
       <Switch>
         <Route path="/" exact></Route>
-        <Route path="/aboutMe" exact></Route>
-        <Route path="/projects" exact></Route>
-        <Route path="/contact" exact></Route>
-        <Route path="/header" exact></Route>
         <Route path="/cv" exact>
           <ModalWindow title="Press to Download CV">
             <a

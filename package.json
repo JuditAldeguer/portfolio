@@ -14,13 +14,13 @@
     "react-dom": "^17.0.2",
     "react-i18next": "^11.13.0",
     "react-router-dom": "^5.3.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.3",
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev": "CHOKIDAR_USEPOLLING=true && npm start",
     "build": "react-scripts build",
     "githubpages": "rm -rf build && rm -rf docs && npm run build && mv build docs && git add docs/* && git commit -m \"Publish in GitHub Pages\" && git push",
     "test": "react-scripts test",

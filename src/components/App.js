@@ -24,7 +24,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              Download English CV
+              Download English CV asdsadf
             </a>
             <a
               className="link_download"

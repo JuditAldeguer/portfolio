@@ -71,16 +71,22 @@
 
 .modal__section .link_download {
   border-radius: 0.625rem;
-  border: solid 0.125rem $colorCover-h1;
   background-color: $colorMain-h2;
-  color: $color-rrss;
-  padding: 0.2rem;
-  margin: 0.1rem;
+  color: $colorCover-h1;
+  /* new------------------------------- */
+  background-image: linear-gradient(to right, $colorMain-h2 0%, $color-rrss  51%, $colorMain-h2  100%);
+  background-size: 200% auto; 
+   color: $dark_grey; 
+   transition: 0.5s;
+  /* new------------------------------- */
+  padding: 0.8rem;
+  margin: 0.3rem;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   @include tablet {
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -90,4 +96,5 @@
   text-decoration: none;
   opacity: 0.6;
   transform: scale(1.1);
+  background-position: right center; /* pendiente------------------- */
 }

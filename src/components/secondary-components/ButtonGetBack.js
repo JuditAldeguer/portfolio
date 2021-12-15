@@ -6,7 +6,7 @@ const ButtonGetBack = (props) => {
     window.history.back();
   };
   return (
-    <button className="button_back" title="atrás" onClick={handleBackBtn}>
+    <button className="button_back" title="Back" onClick={handleBackBtn}>
       Go Back
     </button>
   );
